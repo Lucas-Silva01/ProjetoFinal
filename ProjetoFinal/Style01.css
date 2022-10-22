@@ -1,0 +1,121 @@
+body{
+    background-image:linear-gradient(to right,orange,blue);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-image:linear-gradient(to right, orange, blue);
+    border-style: solid; 
+}
+nav{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(rgb(44, 44, 44),#161616) ;
+    color: black;
+    border-style: solid; 
+    
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+    display: block;
+    width: 700px;
+    height: 565px;
+    
+    z-index: 1;
+    border-width: 0.1cm;
+    
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-image:linear-gradient(rgb(44, 44, 44),#161616) ;
+    color:#ffffff;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; 
+}
+nav img{
+    margin: 5px;
+    margin-left: 15px;
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: OCR A Std, monospace;
+    
+}
+nav ul{
+    top:0;
+    position: relative;
+    display: inline-flex;
+    left: 670px;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color:lime;
+}
+#titulo{
+    display: inline-flex;
+    top: 0px;
+    left: 20px;
+    position: relative;
+    color: white;
+    font-size: 24 px;
+    font-family: Luminari, fantasy
+    
+    
+}
+input{
+    width: 150px;
+}
+#htlogo{
+    top:350px;
+    left: 160px;
+    height: 400px;
+    position: absolute;
+    
+}
+#csslogo{
+    top:320px;
+    left: 1400px;
+    height: 470px;
+    position: absolute;
+    
+}
+#fonthtcss{
+   font-family: Impact, fantasy;
+}
+#html{
+    height: px;
+    width: 100%;
+}
